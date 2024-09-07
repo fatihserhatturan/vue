@@ -3,7 +3,8 @@
     <ul>
       <li class="mb-6">
         <router-link to="/" class="sidebar-link">
-          <i class="fas fa-home mr-2"></i> Home
+          <font-awesome-icon :icon="['fas', 'home']" class="mr-5" /> <!-- Boşluğu artırdık -->
+           | Home
         </router-link>
       </li>
       <!-- Diğer menü öğeleri burada eklenebilir -->
