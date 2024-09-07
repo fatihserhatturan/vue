@@ -2,8 +2,7 @@
   <div id="app">
     <ProjectSidebar />
     <div class="main-content">
-      <h1>Welcome to My App</h1>
-      <!-- Ana içeriğiniz burada olacak -->
+      <router-view />
     </div>
   </div>
 </template>
